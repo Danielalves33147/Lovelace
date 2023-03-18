@@ -11,7 +11,7 @@
 
 
 <p align="center">
-  <img alt="projeto Lovelace" src=".github/preview.jpg" width="100%">
+  <img alt="projeto Lovelace" src="./preview.jpg" width="100%">
 </p>
 
 ---

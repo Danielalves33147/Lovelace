@@ -6,8 +6,8 @@
 
     font-size: 16px;
     color: #141115;
-
-
+    
+    
 }
 
 
@@ -15,13 +15,13 @@
 *::selection {
     background: #F21B3F;
     color: #FFFFFF;
-
+    
 }
 
 body {
     overflow-x: hidden;
     background: linear-gradient(142.15deg, #FFFFFF 49.5%, #F21B3F 159.81%);
-
+    
 }
 
 /* Header */
@@ -31,11 +31,6 @@ header h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 32px;
-    margin: 0px;
-    padding: 0px;
-    color: white;
-    text-decoration: none;
-    list-style: none;
 }
 
 header {
@@ -47,20 +42,12 @@ header {
     width: 100%;
 
     border-bottom: 1px solid #F21B3F;
-* .entry{
-    color:  black;
 }
 
 .tudo{
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-:root {
-    --cor001: #68A1F8;
-    --cor002: black;
-    --cor002-1: #3b3b3b;
-    --font001: 'Archivo', sans-serif;
-    --font002: 'Inter', sans-serif;
 }
 
 /* Main content container */
@@ -69,11 +56,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-html, body, main {
     width: 100%;
     margin: 48px 0;
     font-size: 16px;
-
+    
 }
 
 #love{
@@ -83,9 +69,6 @@ html, body, main {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    height: 100%;
-    background-color: white;
-    scroll-behavior: smooth;
 }
 
 #mainContent h1 {
@@ -96,10 +79,7 @@ html, body, main {
     margin-right: 16px;
     color: #141115;
     user-select: none;
-
-.archivo {
-    font-family: var(--font001);
-    font-size: 400;
+    
 }
 
 #mainContent p {
@@ -113,29 +93,20 @@ html, body, main {
     padding: 32px;
     margin: 0 32px;
     box-shadow: 0px 8px 21px rgba(242, 27, 63, 0.15);
-.inter {
-    font-family: var(--font002);
-    font-size: 400;
 }
 
 #containerContent{
     display: flex;
     justify-content: center;
 }
-/* Desktop daqui para baixo */
 
 /* Example Container */
 #exampleSection {
-
+    
     width: 640px;
-header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--cor002);
-    height: 80px;
-    padding: 0px 80px;
-    justify-content: space-between;
     align-items: center;
     text-align:start;
     gap: 32px;
@@ -153,19 +124,15 @@ header {
 
 #exampleSection p {
     color: #141115;
-    color: white;
 }
 
 #exampleSection2 img {
     width: 400px;
     margin: 32px;
-header img {
-    width: 88px;
 }
 
 /* Buttons container */
 #interactButtons {
-nav > ul {
     display: flex;
     flex-direction:row-reverse;
     justify-content: center;
@@ -191,25 +158,19 @@ nav > ul {
     border: 1px solid #F21B3F;
     transition: all .2s;
     font-size: 20px;
-nav button {
-    background-color: var(--cor002);
-    border: 0px;
     cursor: pointer;
-    font-size: 16px;
 }
 
 /* See eBooks button */
 #seeBooks {
     width: 320px;
-#main-box {
     text-align: center;
     border: 1px solid #F21B3F;
     padding: 16px;
     border-radius: 6px;
     color: #F21B3F;
     transition: all .2s;
-
-    color: var(--cor002);
+    
 }
 
 #startPractice:hover{
@@ -217,17 +178,12 @@ nav button {
     background-color: white;
     color: #F21B3F;
     box-shadow: 0px 8px 21px rgba(242, 27, 63, 0.15);
-
 }
 
 #seeBooks:hover {
     border: 1px solid #F21B3F;
     color: black;
     box-shadow: 0px 8px 21px rgba(242, 27, 63, 0.15);
-#main-box h2 {
-    font-weight: 700;
-    font-size: 72px;
-    color: var(--cor002);
 }
 
 /* Social Buttons */
@@ -237,19 +193,10 @@ nav button {
     align-items: center;
     gap: 16px;
     margin: 48px 0;
-#main-box h3 {
-    font-weight: 400;
-    font-size: 36px;
-    color: var(--cor002);
 }
 
 #socialButtons a {
-#img-bg {
-    background-image: url(../img/artwork\ 1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -259,15 +206,11 @@ nav button {
     transition: all .2s;
     box-shadow: #F21B3F;
     background: #FFFFFF;
-
-    height: 420px;
+    
 }
 
 #socialButtons a:hover {
     background: #F4F4F4;
-#img-bg img {
-    margin: 15px auto;
-    width: 349px;
 }
 
 /* Practice text */
@@ -312,8 +255,6 @@ nav button {
     border-radius: 6px;
     transition: all .2s;
     cursor: pointer;
-#img-bg p {
-    font-size: 32px;
 }
 
 .changeText {
@@ -323,17 +264,6 @@ nav button {
     background: transparent;
     border: 1px solid #F21B3F;
     border-radius: 6px;
-#img-bg button {
-    margin: 22px auto;
-    background-color: #68A1F8;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 0px;
-    border-radius: 16px;
-    height: 36px;
-    width: 180px;
-    font-weight: 700;
-    font-size: 16px;
     cursor: pointer;
     transition: all .2s;
 }
@@ -353,14 +283,9 @@ nav button {
 }
 
 .answerButtons {
-#card-box {
-    max-width: 1280px;
-    min-width: 873px;
-    margin: auto;
     display: flex;
     flex-direction: row;
     margin: 16px 0;
-    padding: 80px;
     gap: 16px;
 }
 
@@ -371,7 +296,6 @@ nav button {
 }
 
 footer {
-.card {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -385,18 +309,11 @@ footer {
     margin: 96px 0;
     text-align: center;
     color: #141115;
-    background-color: black;
-    border-radius: 8px;
-    padding: 24px;
-    gap: 40px;
 }
 
 footer p span {
     color: #141115;
-.card > p, .card > #c-card > p {
     font-weight: 700;
-    font-size: 16px;
-    text-align: left;
 }
 
 footer .divider {
@@ -406,7 +323,6 @@ footer .divider {
 
 /* Timer */
 .container {
-.h-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -417,14 +333,9 @@ footer .divider {
 
 .container > h3{
     color: #141115;
-    font-weight: 700;
-    font-size: 32px;
-    gap: 33px;
-    text-align: left;
 }
 
 #timer {
-.i-card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -447,19 +358,11 @@ footer .divider {
     font-weight: 700;
 
     transition: all .2s;
-    background-color: white;
-    height: 72px;
-    width: 72px;
-    flex: 0 0 auto;
-    border-radius: 16px;
 }
 
 .timerButton:hover {
     cursor: pointer;
     background-color: #F4F4F4;
-#card-1 {
-    height: 299px;
-    width: 304px;
 }
 
 /* Result modal */
@@ -475,14 +378,15 @@ footer .divider {
     display: none;
     justify-content: center;
     align-items: center;
-#card-2 {
-    flex: 1;
 }
 
 #resultContainer.show {
-#c-card {
     display: flex;
-    gap: 40px;
+}
+
+#foot{
+    display: none;
+        
 }
 
 .modal {
@@ -490,7 +394,6 @@ footer .divider {
     width: 50%;
     min-width: 300px;
     padding: 72px;
-.social {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -502,25 +405,16 @@ footer .divider {
 .modal h1 {
     font-size: 32px;
     margin-bottom: 32px;
-    gap: 28px;
-    width: 356px;
-    margin: 40px auto 64px;
 }
 
 #scoreContainer {
-.social div {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--cor002);
-    width: 100px;
-    height: 100px;
-    border-radius: 16px;
 }
 
 #scoreTitle {
     padding: 16px 32px;
-#contact {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -529,22 +423,14 @@ footer .divider {
 
     font-size: 32px;
     border-radius: 2px;
-    position: relative;
-    background-color: var(--cor002);
-    height: 530px;
-    padding: 80px;
 }
 
 #score {
     color: #FFFFFF;
     font-size: 64px;
-#inputs img {
-    margin: 15px 0px;
-    width: 349px;
 }
 
 #level {
-#contact p {
     font-weight: 700;
     font-size: 32px;
     background:  linear-gradient(269.52deg, #F21B3F -1.77%, #FFD151 95%);
@@ -552,30 +438,18 @@ footer .divider {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     user-select: none;
-    line-height: 34px;
 }
 
 .usuario{
     display: none;
-form {
-    max-width: 788px;
 }
 
 .Text{
     display: none;
-
-fieldset {
-    margin-top: 32px;
-    max-width: 788px;
-    border: 0px;
 }
 
 .temp{
     display: none;
-legend {
-    margin-bottom: 28px;
-    font-weight: 500;
-    font-size: 24px;
 }
 
 #resultButtons {
@@ -584,10 +458,6 @@ legend {
     justify-content: center;
     flex-direction: row;
     gap: 16px;
-.entry {
-    padding: 12px 16px;
-    width: 100%;
-    margin-bottom: 12px;
 }
 
 #save {
@@ -601,31 +471,9 @@ legend {
     border: 1px solid #F21B3F;
     cursor: pointer;
     transition: all .2s;
-#f-social {
-    position: absolute;
-    margin: 0px;
-    top: 100px;
-    right: 80px;
 }
 
 #dontSavePdf {
-#r-box {
-    display: flex;
-    position: fixed;
-    z-index: 10;
-    gap: 32px;
-    bottom: 92px;
-    right: 80px;
-}
-
-#r-button {
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--cor002);
-    border: 0px;
-    width: 64px;
     height: 64px;
     width: 8em;
     padding: 16px;
@@ -634,7 +482,6 @@ legend {
     cursor: pointer;
     color: #F21B3F;
     border-radius: 4px;
-    transition: opacity .2s ease-in;
 }
 
 
@@ -643,8 +490,6 @@ legend {
     border: 1px solid #F21B3F;
     color: black;
     box-shadow: 0px 8px 21px rgba(242, 27, 63, 0.15);
-#r-button.fade {
-    opacity: 1;
 }
 
 #savePdf:hover {
@@ -671,7 +516,7 @@ legend {
         font-size: 20px;
         margin: 48px 16px;
         text-align: center;
-
+        
     }
 
     #mainContent p {
@@ -680,14 +525,14 @@ legend {
         justify-content: center;
         text-align: center;
         flex-direction: column;
-
+    
         border: 1px solid #F21B3F;
         border-radius: 6px;
         padding: 24px;
         margin: 0px 32px;
-
+    
         box-shadow: 0px 8px 21px rgba(0, 119, 182, 0.15);
-
+    
     }
 
     #exampleSection{
@@ -734,9 +579,9 @@ legend {
         width: 80%;
         margin: 32px;
         user-select: none;
-
+        
     }
-
+    
     #resultButtons {
         display: flex;
         flex-direction: column;
@@ -747,60 +592,5 @@ legend {
         justify-content: center;
         flex-direction: column;
     }
-#r-button img {
-    width: 64px;
-    height: 64px;
+
 }
-
-#r-text {
-    visibility: hidden;
-    width: 0;
-    overflow: hidden;
-    font-weight: 700;
-    font-size: 48px;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: width .3s ease-in, visibility .3s ease-in;
-}
-
-#r-text.open {
-    visibility: visible;
-    width: 316px;
-}
- /* BOTÃO DE ENVIAR O EMAIL */
-.btn-message{
-    width: 90px;
-    height: 30px;
-    cursor: pointer;
-    background: transparent;
-    border: 1px solid white;
-    outline: none;
-    transition: 1s ease-in-out;
-  }
-
-  svg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    fill: none;
-    stroke: #fff;
-    stroke-dasharray: 150 480;
-    stroke-dashoffset: 150;
-    transition: 1s ease-in-out;
-  }
-
-  .btn-message:hover {
-    transition: 1s ease-in-out;
-    background: white;
-    color: black;
-  }
-
-  .btn-message:hover svg {
-    stroke-dashoffset: -480;
-  }
-
-  .btn-message span {
-    color: white;
-    font-size: 18px;
-    font-weight: 100;
-  }
